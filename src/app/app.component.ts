@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { LevelComponent } from './level/level.component';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [LevelComponent],
+  imports: [ RouterOutlet],
   templateUrl: './app.component.html',
 })
 export class AppComponent {
